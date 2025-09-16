@@ -1,0 +1,39 @@
+* {
+    font-family: Iosevka NF;
+    border-radius: 0px;
+    border: none;
+}
+
+window#waybar {
+    background-color: #1F1F28;
+}
+
+#custom-runner {
+    font-size: 25px;
+    min-width: 50px;
+	color: #DCD7BA;
+
+}
+
+#workspaces button,
+#workspaces button.active {
+    min-width: 35px;
+    font-size: 12px;
+    box-shadow: none;
+    color: #DCD7BA;
+}
+
+#clock,
+#language,
+#wireplumber {
+    font-size: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #DCD7BA;
+}
+
+#wireplumber.muted {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

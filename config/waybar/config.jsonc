@@ -1,0 +1,68 @@
+{
+    "layer": "top",
+    "position": "top", 
+    "height": 35,
+    "spacing": 0,
+    "margin": "6 6 0 6", 
+    
+    "modules-left": [
+        "custom/runner",
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "hyprland/language",
+        "tray",
+        "wireplumber"
+    ],
+
+    "custom/runner": {
+        "format": "𐕣",
+        "tooltip": false,
+        "on-click": "fuzzel"
+    },
+    
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": 5
+        },
+
+        "format": "{icon}",
+        "format-icons": {
+            "default": "",
+            "active": ""
+        }
+    },
+
+
+    "clock": {
+        "format": "{:%A, %R}",
+        "interval": 1,
+        "tooltip": false
+    },
+
+    "hyprland/language": {
+        "format": "[{}]",
+        "format-ru": "RU",
+        "format-en": "EN",
+        "on-click": "hyprctl switchxkblayout all next"
+    },
+    
+    "wireplumber": {
+        "format": "vol {volume}%",
+        "format-muted": "<span font='15'>󰝟</span>",
+        "max-volume": 150,
+        "scroll-step": 1,
+        "tooltip": false,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    }
+}

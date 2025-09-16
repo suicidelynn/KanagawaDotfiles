@@ -1,0 +1,14 @@
+font=Iosevka NF
+background-color=#1F1F28
+text-color=#DCD7BA
+border-color=#C34043
+progress-color=over #A6A69C
+max-visible=3
+width=400
+height=200
+anchor=top-right
+layer=top
+margin=6,6,0,6
+default-timeout=5000
+ignore-timeout=1
+icons=1
