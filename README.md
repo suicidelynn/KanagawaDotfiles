@@ -37,3 +37,6 @@ systemctl reboot
 > from this [file](./config/hypr/hyprland.conf). In addition, if you are using a multi-monitor system, you must configure
 > this yourself in the same file. You may also need to modify this [file](config/hypr/hyprpaper.conf) for the wallpaper 
 > to display correctly.
+
+> [!TIP]
+> BTW, you can use my [kanagawa theme](t.me/addtheme/KanagawaTheme) for telegram.
