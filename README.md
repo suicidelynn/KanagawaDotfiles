@@ -39,4 +39,4 @@ systemctl reboot
 > to display correctly.
 
 > [!TIP]
-> BTW, you can use my [kanagawa theme](https://t.me/addtheme/KanagawaTheme) for telegram.
+> BTW, you can use my [kanagawa theme](https://t.me/addtheme/KanagawaRed) for telegram.
